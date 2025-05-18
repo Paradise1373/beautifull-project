@@ -1,8 +1,16 @@
+import { Routes, Route } from 'react-router-dom'
+
+import Home from './pages/Home'
+import NotFound from './pages/NotFound'
+
 const App = () => {
   return (
-    <div>
-      <h2>Hello World</h2>
-    </div>
+    <>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+    </>
   )
 }
 
