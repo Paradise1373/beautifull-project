@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className='container max-w-4xl mx-auto z-10 text-center'>
         <div className='space-y-6'>
           <h2 className='text-3xl md:text-5xl font-bold tracking-tight'>
-            <span className='opacity-0 animate-fade-in'>Hi,I'm </span>
+            <span className='opacity-0 animate-fade-in'>Hi, I'm </span>
             <span className='opacity-0 animate-fade-in-delay-1 text-primary'>
               ABdullah{' '}
             </span>
