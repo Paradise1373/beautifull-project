@@ -1,9 +1,19 @@
+import { ArrowUp } from 'lucide-react'
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className='py-12 px-4 bg-card relative border-t border-border pt-8 mt-12 flex flex-wrap justify-between items-center'>
       {' '}
-      &copy; {new Date().getFullYear()}
-      <p>ABdullahTech.co. All rights is reserved.</p>
+      <p className='text-sm text-muted-foreground'>
+        &copy; {new Date().getFullYear()} ABdullahTech.co. All rights is
+        reserved.
+      </p>
+      <a
+        href='#hero'
+        className='p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors'
+      >
+        <ArrowUp size={20} />
+      </a>
     </footer>
   )
 }
