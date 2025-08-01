@@ -12,7 +12,7 @@ import {
 import { useState } from 'react'
 import { useToast } from '../hooks/use-toast'
 
-import { cn } from '../lib/utils'
+import { cn } from '../hooks/lib/utils'
 
 const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false)
